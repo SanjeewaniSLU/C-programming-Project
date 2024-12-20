@@ -9,7 +9,9 @@ temperature data from a CSV-file and prints a horizontal bar graph of the temper
 room. The CSV file starts with a header row and then conDnues with lines of comma separated data.
 The header row contains two Dtles: Room and Temperature. Data lines contain room name and the
 temperature separated by commas.
+
 Temperature,Room
+
 22.5,Kitchen
 18.7,Living Room
 24.2,Bedroom
@@ -22,19 +24,31 @@ Temperature,Room
 21.8,Kitchen
 11.5,Living Room
 24.9,Bedroom
+
 Program must ask user to select a room and then print the temperatures with one decimal precision
 followed with a bar graph using dashes (-). Each dash corresponds to 0.5 cenDgrade and
 temperatures in the range of 0 – 30 are printed as horizontal bars. Temperatures that are outside or
 the range are printed as a single X on the lee. If the selected room does not exist then program must
 print an error message.
+
 For example, (not based on the data above):
+
 Bedroom
+
 20.4 ----------------------------------------
+
 22.5 -------------------------------------------
+
 21.4 ------------------------------------------
-21.6 -----------------------------------------
+
+21.6 
+
 32.3 X
+
 18.2 ------------------------------------
+
 18.8 -------------------------------------
+
 19.5 --------------------------------------
+
 21.3 -----------------------------------------
